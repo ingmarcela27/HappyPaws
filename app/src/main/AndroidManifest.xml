@@ -10,7 +10,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HappyPaws">
         <activity
-            android:name=".view.ui.activities.MainActivity"
+            android:name=".view.ui.activities.VerProducto"
+            android:exported="false" />
+        <activity
+            android:name=".VerProducto"
+            android:exported="false" />
+        <activity
+            android:name=".view.ui.activities.AccountRecoveryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.ui.activities.CheckEmailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.ui.activities.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.ui.activities.SignInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.ui.activities.SplashScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,6 +36,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".view.ui.activities.MainActivity"
+            android:exported="true" />
     </application>
 
 </manifest>
